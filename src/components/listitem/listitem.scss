@@ -30,6 +30,7 @@
       -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
       box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
       border-radius: 5px;
+      // transition: all .2s;
   
       img {
         height: 140px;
@@ -69,7 +70,7 @@
   
         .desc {
           font-size: 13px;
-          margin-bottom: 10px;
+          margin-bottom: 10px;font-family:roboto,  serif;
         }
   
         .genre {

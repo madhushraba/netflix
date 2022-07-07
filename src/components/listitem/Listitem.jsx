@@ -1,10 +1,9 @@
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import AddIcon from '@mui/icons-material/Add';
+import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined';
+import ThumbDownOutlinedIcon from '@mui/icons-material/ThumbDownOutlined';
 import "./listitem.scss";
-// import {
-//   PlayArrow,
-//   Add,
-//   ThumbUpAltOutlined,
-//   ThumbDownOutlined,
-// } from "@material-ui/icons";
+
 import { useState } from "react";
 
 export default function ListItem({ index }) {
@@ -28,10 +27,10 @@ export default function ListItem({ index }) {
           <video src={trailer} autoPlay={true} loop />
           <div className="itemInfo">
             <div className="icons">
-              {/* <PlayArrow className="icon" />
-              <Add className="icon" />
-              <ThumbUpAltOutlined className="icon" />
-              <ThumbDownOutlined className="icon" /> */}
+              <PlayArrowIcon className="icon" />
+              <AddIcon className="icon" />
+              <ThumbUpAltOutlinedIcon className="icon" />
+              <ThumbDownOutlinedIcon  className="icon" />
             </div>
             <div className="itemInfoTop">
               <span>1 hour 14 mins</span>
@@ -39,7 +38,7 @@ export default function ListItem({ index }) {
               <span>1999</span>
             </div>
             <div className="desc">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              n mk.,sdn cl,dnk,f Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Praesentium hic rem eveniet error possimus, neque ex doloribus.
             </div>
             <div className="genre">Action</div>
